@@ -1,0 +1,33 @@
+# Test the clear and manual commands.
+java -ea qirkat.Main
+manual Black
+start
+c2-c3
+dump
+@<===
+@< b b b b b
+@< b b b b b
+@< b b w w w
+@< w w - w w
+@< w w w w w
+@<===
+clear
+manual Black
+dump
+@<===
+@< b b b b b
+@< b b b b b
+@< b b - w w
+@< w w w w w
+@< w w w w w
+@<===
+start
+c2-c3
+dump
+@<===
+@< b b b b b
+@< b b b b b
+@< b b w w w
+@< w w - w w
+@< w w w w w
+@<===

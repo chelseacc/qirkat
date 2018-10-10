@@ -1,0 +1,14 @@
+# Test all legal horizontal moves.
+java -ea qirkat.Main
+set white w---- ----- ----- ----- ----b
+a1-b1
+dump
+@<===
+@< - - - - b
+@< - - - - -
+@< - - - - -
+@< - - - - -
+@< - w - - -
+@<===
+
+
